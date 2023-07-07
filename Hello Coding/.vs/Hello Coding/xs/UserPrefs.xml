@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{FB414720-1F89-DFBA-AA54-449F2129607A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HelloCode.cs">
+    <Files>
+      <File FileName="Assets/HelloCode.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hello Coding" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5afda2b9-c5ce-4ced-910b-468cfe39ddbd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
