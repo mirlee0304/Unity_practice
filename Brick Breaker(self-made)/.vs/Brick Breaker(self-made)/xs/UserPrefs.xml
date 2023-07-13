@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{B3BF81A4-2095-958B-C51E-61E8E63643C5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Brick.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Bar.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/Brick.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Brick Breaker(self-made)" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Brick.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3fc80025-033b-4bea-9cf0-d3f4bd8e4538" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
