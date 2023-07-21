@@ -2,10 +2,12 @@
 
 // 왼쪽 끝으로 이동한 배경을 오른쪽 끝으로 재배치하는 스크립트
 public class BackgroundLoop : MonoBehaviour {
+    //배경 가로 길이 재서 가로 길이보다 현재위치가 이동했으면 리셋 
     private float width; // 배경의 가로 길이
 
     private void Awake() {
         // 가로 길이를 측정하는 처리
+
     }
 
     private void Update() {
