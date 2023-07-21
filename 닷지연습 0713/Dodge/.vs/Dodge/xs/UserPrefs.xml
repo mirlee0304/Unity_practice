@@ -3,9 +3,9 @@
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="30" Column="31" />
       <File FileName="Assets/Scripts/Bullet.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/BulletSpawner.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/BulletSpawner.cs" Line="32" Column="45" />
       <File FileName="Assets/Scripts/Rotator.cs" Line="18" Column="6" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="49" Column="43" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="56" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b66bcbf2-ff24-4f9c-96e9-04aec918cc41" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bed20a10-10d0-4e87-9da0-6f2137db8080" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
