@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="78" Column="28" />
       <File FileName="Assets/Scripts/ScrollingObject.cs" Line="11" Column="2" />
-      <File FileName="Assets/Scripts/BackgroundLoop.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/BackgroundLoop.cs" Line="21" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
