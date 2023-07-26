@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{48505C13-EDFE-2FA4-E0F3-232EE6CC2169}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundLoop.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="51" Column="45" />
+      <File FileName="Assets/Scripts/ScrollingObject.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/Platform.cs" Line="29" Column="10" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="34" Column="6" />
+      <File FileName="Assets/Scripts/BackgroundLoop.cs" Line="15" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="유니런연습 0724-1" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="225a6458-c69b-42cd-90c9-f78ea8f5c6ef" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
