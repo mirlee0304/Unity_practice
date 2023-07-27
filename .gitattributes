@@ -1,0 +1,2 @@
+/Unity_practice/Zombie filter=lfs diff=lfs merge=lfs -text
+/Unity_practice/Tetris filter=lfs diff=lfs merge=lfs -text
