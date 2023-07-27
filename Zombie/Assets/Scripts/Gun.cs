@@ -20,22 +20,38 @@ public class Gun : MonoBehaviour {
     private LineRenderer bulletLineRenderer; // 탄알 궤적을 그리기 위한 렌더러
 
     private AudioSource gunAudioPlayer; // 총 소리 재생기
+    public AudioClip shotClip;
+    public AudioClip reloadClip;
+
+    public float damage = 25;//공격력 
 
     public GunData gunData; // 총의 현재 데이터
 
     private float fireDistance = 50f; // 사정거리
 
     public int ammoRemain = 100; // 남은 전체 탄알
+    public int magCapacity = 25; //탄창 용량 
     public int magAmmo; // 현재 탄알집에 남아 있는 탄알
 
+    public float timeBetFire = 0.12f;
+    public float reloadTime = 1.8f;
     private float lastFireTime; // 총을 마지막으로 발사한 시점
 
     private void Awake() {
         // 사용할 컴포넌트의 참조 가져오기
+        gunAudioPlayer = GetComponent<AudioSource>();
+        bulletLineRenderer = GetComponent<LineRenderer>();
+
+        bulletLineRenderer.positionCount = 2;
+        bulletLineRenderer.enabled = false;
+
     }
 
     private void OnEnable() {
         // 총 상태 초기화
+        magAmmo = magCapacity;
+        state = State.Ready;
+        lastFireTime = 0;
     }
 
     // 발사 시도
