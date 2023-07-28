@@ -56,7 +56,7 @@ public class Gun : MonoBehaviour {
 
     // 발사 시도
     public void Fire() {
-
+        
     }
 
     // 실제 발사 처리
@@ -66,6 +66,14 @@ public class Gun : MonoBehaviour {
 
     // 발사 이펙트와 소리를 재생하고 탄알 궤적을 그림
     private IEnumerator ShotEffect(Vector3 hitPosition) {
+        muzzleFlashEffect.Play();
+        shellEjectEffect.Play();
+
+        gunAudioPlayer.PlayOneShot(shotClip);
+
+        bulletLineRenderer.SetPosition(0, fireTransform.position);
+        bulletLineRenderer.SetPosition(1, hitPosition);
+
         // 라인 렌더러를 활성화하여 탄알 궤적을 그림
         bulletLineRenderer.enabled = true;
 
